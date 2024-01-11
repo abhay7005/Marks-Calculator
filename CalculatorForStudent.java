@@ -5,7 +5,7 @@ public class CalculatorForStudent {
             System.out.print("Enter your Student name : ");
             String StudentName = scan.next();
             System.out.print("Enter your Student Exam Roll No. : ");
-            String Rollno = scan.next();
+            String Rollno1 = scan.next();
             System.out.println("Enter your Physics marks : ");
             int physics = scan.nextInt();
             System.out.println("Enter your English marks : ");
@@ -20,7 +20,7 @@ public class CalculatorForStudent {
             float percentage = ((physics + English + chemistry + mathematics + computer) / 500.0f) * 100;
             int TotalMarks = (physics + English + chemistry + mathematics + computer);
             System.out.println("Total Marks of " + StudentName);
-            System.out.println("Roll no :" + Rollno);
+            System.out.println("Roll no :" + Rollno1);
             System.out.println("out off 500 is  :" + TotalMarks);
             System.out.println("percentage  :" + percentage);
         }
